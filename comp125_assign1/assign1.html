@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body onload="createTable()">
+
+<h1>Assignment 1</h1>
+<h5>a webpage that dynamically creates a table on window load event (using JavaScript code)</h5>
+
+<table id="table" class="table">
+</table>
+
+<form class="inputs" onclick="return false">
+    <label>Enter number of rows:
+        <input type="text" id="newRows">
+    </label>
+    <br>
+    <br>
+
+    <label>Enter number of columns:
+        <input type="text" id="newCols">
+    </label>
+    <br>
+
+    <button onclick="updateTable()">create a table</button>
+</form>
+
+<script src="assign1.js"></script>
+
+</body>
+</html>
