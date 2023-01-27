@@ -1,0 +1,198 @@
+/* Shared */
+
+body 
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    text-align: center;
+}
+
+#linkstitle
+{
+    text-align:left; 
+    font-size:medium;
+    font-weight:bold;
+    color:rgba(255, 134, 241);
+    padding-left:1rem;
+}
+
+#links
+{
+    text-align:left; 
+    font-size:small;
+    font-style:italic;
+    color:rgba(255, 134, 241);
+    padding-left:1rem;
+    padding-top:5px;
+}
+
+#credit
+{
+    font-size:xx-small; 
+    font-style:italic; 
+    text-align:right; 
+    padding-right:5px
+}
+
+#citation
+{
+    padding-top:2rem;
+    font-size:x-small;
+}
+
+#copyright
+{
+    padding-top:2rem;
+    font-style:italic;
+    font-size:x-small;
+}
+
+/* Home Page */
+
+.index
+{
+    background-color: #e8cbfd;
+}
+
+#indexhead
+{
+    background-image: url(images/carina.jpg);
+    background-size: cover;
+    color: #cc00ffda;
+    padding:5rem;
+
+}
+
+/* Protected Areas */
+
+.assignment2
+{
+    background-color: #8fefa4;
+    color:rgba(0, 100, 0, 0.771);
+}
+
+#assignmenthead
+{
+    background-image:url(assignment2/images/marsh.jpg);
+    background-size:cover;
+    color: #00ff6ad0;
+    text-shadow: 2px 2px #000000b4;
+    font-size:xx-large;
+    padding:5rem;
+}
+
+#intro
+{
+    padding:1rem;
+    padding-left:5rem;
+    padding-right:5rem;
+}
+
+#resources
+{
+    padding:1rem;
+}
+
+#mylist
+{
+    list-style-type: "\1F332";
+}
+
+/* Product Page */
+
+.assignment3
+{
+    background-color:rgba(200, 255, 255);
+    color:rgb(143, 53, 227);
+}
+
+#prodhead
+{
+    background-image:url(assignment3/images/yogastudio.png);
+    background-size: cover;
+    color:aqua;
+    text-shadow: 2px 2px #000000b4;
+    font-size:2rem;
+    padding:5rem;
+}
+
+#logo
+{
+    width:8%; 
+    height:auto;
+    float:left;
+}
+
+.product-container
+{
+    display:flex;
+    padding-top:2rem;
+    padding-bottom:2rem;
+    padding-left:5rem;
+    padding-right:5rem;
+}
+
+.product-container > div
+{
+    display:inline-block;
+    vertical-align:middle;
+    width:48%;
+    padding-bottom:1rem;
+}
+
+#prodimage
+{
+    padding:1rem;
+}
+
+#mat
+{
+    width:80%;
+    height:auto;
+}
+
+.prodfeatures
+{
+    padding:2rem;
+    display:flex;
+;
+}
+
+.prodfeatures > div
+{
+    display:inline-block;
+    vertical-align:middle;
+    width:48%;
+}
+
+#tagline
+{
+    padding-bottom:1rem; 
+    font-size:larger;
+    font-style:italic;
+    font-weight:bold;
+}
+
+#homelink
+{
+    text-align:right;
+    padding:1rem;
+}
+
+table, th, td
+{
+    margin:auto;
+    padding:1rem;
+}
+
+#altmats
+{
+    width:8rem;
+    height:auto;
+}
+
+#map
+{
+    width:15rem;
+    height:auto;
+}
