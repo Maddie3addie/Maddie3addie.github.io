@@ -1,9 +1,47 @@
-body{
+body {
+    font-family: "Arial Rounded MT", sans-serif;
+    text-align: center;
+    margin: 2rem;
+    background-color: rgba(224, 182, 242, 0.80);
+}
+
+.title {
+    font-size: 3rem;
+    text-align: center;
+    padding: 0.5rem;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.80);
+}
+
+.subtitle {
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+    font-style: italic;
+}
+
+.pics {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pic {
+    padding: 0.5rem;
+    width: 8rem;
 }
 
 .table, td {
-    border: black solid 0.15rem;
+    margin: auto;
+    border: rgba(255, 255, 255, 0.40) solid 0.2rem;
     border-collapse: collapse;
+}
+
+tr:nth-child(even) {
+    background-color: rgba(224, 182, 242, 0.9);
+}
+
+tr:nth-child(odd) {
+    background-color: rgba(242, 189, 214, 0.9);
 }
 
 td {
@@ -11,12 +49,19 @@ td {
     text-align: center;
 }
 
-.inputs{
+.inputs {
     margin-top: 1.5rem;
     font-size: 1.1rem;
 }
 
-button{
+button {
     margin-top: 1.25rem;
+    margin-bottom: 1rem;
     font-size: 1.1rem;
+}
+
+.copyright {
+    position: absolute;
+    right: 0;
+    padding: 3rem 1rem 2rem;
 }
